@@ -276,7 +276,7 @@ class Custplace_Admin
     public function sendToApi($data = [])
     {
         
-        $url = 'POST - https://api.custplace.com/v2/invitations';
+        $url = 'https://api.custplace.com/v2/invitations';
         
         $curl = curl_init($url);
        
